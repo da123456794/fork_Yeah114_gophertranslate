@@ -1,7 +1,11 @@
+github.com/Happy2018new/worldupgrader v1.1.0 h1:GkWh/s2amvMWXBdbEi/noB2He/WX8qZakNCpu+RMwm4=
+github.com/Happy2018new/worldupgrader v1.1.0/go.mod h1:zcYacoQZL6FG4SuI/YRbZ4ymWR5zEaN8hqzn2lWsvM4=
 github.com/go-gl/mathgl v1.2.0 h1:v2eOj/y1B2afDxF6URV1qCYmo1KW08lAMtTbOn3KXCY=
 github.com/go-gl/mathgl v1.2.0/go.mod h1:pf9+b5J3LFP7iZ4XXaVzZrCle0Q/vNpB/vDe5+3ulRE=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/klauspost/compress v1.18.1 h1:bcSGx7UbpBqMChDtsF28Lw6v/G94LPrrbMbdC3JH2co=
+github.com/klauspost/compress v1.18.1/go.mod h1:ZQFFVG+MdnR0P+l6wpXgIL4NTtwiKIdBnrBd8Nrxr+0=
 github.com/sandertv/gophertunnel v1.37.0 h1:yPzOp4W1GahLjtxldXa5K25saJK/XG7SiyEt6oMjm0I=
 github.com/sandertv/gophertunnel v1.37.0/go.mod h1:4El8ZfEpUmOMIJhPt5SCc1PyLNiuQ2+grWczrBvSGVs=
 github.com/segmentio/fasthash v1.0.3 h1:EI9+KE1EwvMLBWwjpRDc+fEM+prwxDYbslddQGtrmhM=

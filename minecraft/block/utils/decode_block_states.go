@@ -1,8 +1,10 @@
 package utils
 
 import (
-	"fmt"
 	"bytes"
+	"errors"
+	"fmt"
+	"io"
 
 	"github.com/Yeah114/bedrock-world-operator/define"
 	"github.com/Yeah114/gophertunnel/minecraft/nbt"
@@ -14,6 +16,9 @@ func DecodeBlockStates(blockStatesBytes []byte) (blockStates []define.BlockState
 	for {
 		var s define.BlockState
 		if err := dec.Decode(&s); err != nil {
+			if errors.Is(err, io.EOF) {
+				break
+			}
 			if _, ok := err.(nbt.BufferOverrunError); ok {
 				break
 			}
